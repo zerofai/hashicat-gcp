@@ -3,7 +3,6 @@ module "vpc" {
     version = "~> 3.0"
 
     project_id   = "var.project"
-    network_name = "gaurav-vpc"
 
     subnets = [
         {
